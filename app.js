@@ -61,49 +61,49 @@
 
 // ---------- Projects Data ----------
 const projects = [
-    {
-        title: 'Circuit Runner',
-        desc: 'A fast‑paced cyberpunk platformer built with Unity. Tight controls, reactive VFX, and score combos.',
-        img: 'https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1400&auto=format&fit=crop',
-        tech: ['C#', 'Unity', '2D', 'Cinemachine'],
-        repo: 'https://github.com/yourname/circuit-runner',
-        demo: '#'
-    },
-    {
-        title: 'VoltBoard',
-        desc: 'Realtime kanban board with drag‑and‑drop, keyboard shortcuts, and offline support.',
-        img: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1400&auto=format&fit=crop',
-        tech: ['TypeScript', 'Vite', 'PWA', 'IndexedDB'],
-        repo: 'https://github.com/yourname/voltboard',
-        demo: '#'
-    },
-    {
-        title: 'SparkSite Starter',
-        desc: 'A minimalist, high‑performance static site template with electric design tokens.',
-        img: 'https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=1400&auto=format&fit=crop',
-        tech: ['HTML', 'CSS', 'JS'],
-        repo: 'https://github.com/yourname/sparksite-starter',
-        demo: '#'
-    },
-    {
-        title: 'Electric Particles',
-        desc: 'Canvas particle playground with presets for lightning, plasma, and nebula effects.',
-        img: 'https://images.unsplash.com/photo-1553570739-330b8db8a925?q=80&w=1400&auto=format&fit=crop',
-        tech: ['JavaScript', 'Canvas', 'Shaders'],
-        repo: 'https://github.com/yourname/electric-particles',
-        demo: '#'
-    }
+    // {
+    //     title: 'Circuit Runner',
+    //     desc: 'A fast‑paced cyberpunk platformer built with Unity. Tight controls, reactive VFX, and score combos.',
+    //     img: 'https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1400&auto=format&fit=crop',
+    //     tech: ['C#', 'Unity', '2D', 'Cinemachine'],
+    //     repo: 'https://github.com/yourname/circuit-runner',
+    //     demo: '#'
+    // },
+    // {
+    //     title: 'VoltBoard',
+    //     desc: 'Realtime kanban board with drag‑and‑drop, keyboard shortcuts, and offline support.',
+    //     img: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1400&auto=format&fit=crop',
+    //     tech: ['TypeScript', 'Vite', 'PWA', 'IndexedDB'],
+    //     repo: 'https://github.com/yourname/voltboard',
+    //     demo: '#'
+    // },
+    // {
+    //     title: 'SparkSite Starter',
+    //     desc: 'A minimalist, high‑performance static site template with electric design tokens.',
+    //     img: 'https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=1400&auto=format&fit=crop',
+    //     tech: ['HTML', 'CSS', 'JS'],
+    //     repo: 'https://github.com/yourname/sparksite-starter',
+    //     demo: '#'
+    // },
+    // {
+    //     title: 'Electric Particles',
+    //     desc: 'Canvas particle playground with presets for lightning, plasma, and nebula effects.',
+    //     img: 'https://images.unsplash.com/photo-1553570739-330b8db8a925?q=80&w=1400&auto=format&fit=crop',
+    //     tech: ['JavaScript', 'Canvas', 'Shaders'],
+    //     repo: 'https://github.com/yourname/electric-particles',
+    //     demo: '#'
+    // }
 ];
 
 const skills = [
-    { name: 'C#', note: 'Gameplay systems, OOP, editor tooling' },
-    { name: 'Unity', note: 'Animation, physics, URP, profiling' },
-    { name: 'JavaScript', note: 'UI, Canvas, perf patterns' },
-    { name: 'HTML/CSS', note: 'Responsive, a11y, animations' },
-    { name: 'TypeScript', note: 'Large app DX, types' },
-    { name: 'Node.js', note: 'APIs, tooling, CLIs' },
-    { name: 'Git/GitHub', note: 'Workflows, CI basics' },
-    { name: 'Design', note: 'Figma, UX polish' },
+    { name: 'C#', note: '' },
+    { name: 'Unity', note: '' },
+    { name: 'JavaScript', note: '' },
+    // { name: 'HTML/CSS', note: 'Responsive, a11y, animations' },
+    // { name: 'TypeScript', note: 'Large app DX, types' },
+    // { name: 'Node.js', note: 'APIs, tooling, CLIs' },
+    // { name: 'Git/GitHub', note: 'Workflows, CI basics' },
+    // { name: 'Design', note: 'Figma, UX polish' },
 ];
 
 // ---------- Renderers ----------
