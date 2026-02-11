@@ -14,7 +14,7 @@ function ChangeFooterText(){
 }, timeBtwEachFooterText * 1000 * Math.random(10));
 }
 
-ChangeFooterText()
+// ChangeFooterText()
 
 const links = document.querySelectorAll("#nav a[data-panel]");
 const panels = document.querySelectorAll(".panel");

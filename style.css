@@ -6,6 +6,10 @@
     --danger-red: #ff0033;
 
 }
+*{
+  padding: 0;
+  margin: 0;
+}
 body{
     background-color: var(--secondary-color);
     color: #00FF00;
@@ -72,18 +76,7 @@ margin-top: 20px;
   font-weight: 400;
   font-style: normal;
 }
-footer{
-  position: absolute;
-  left: 0;
-  bottom: -50%;
-  width: 100%;
-  padding: 0%;
-  background-color: var(--accent-color);
-  color: primary-font-color;
-  font-weight: bold;
-  text-align: center;
-  font-size: 25px;
-}
+
 /* ===== LAYOUT ===== */
 .layout {
   display: flex;
@@ -298,4 +291,17 @@ footer{
   top: 10%;
   left: 50%;
   transform: translate(-50%,-50%);
+}
+
+footer{
+   position: fixed;
+   padding: 10px;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+  background-color: var(--accent-color);
+  color: primary-font-color;
 }

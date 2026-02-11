@@ -1,127 +1,141 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ali - Software Engineer</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <!--
     fonts
     -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
-</head>
-<body class="share-tech-mono-regular">
-        <div class="content">
-                <p id="word-par"></p>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="share-tech-mono-regular">
+    <div class="content">
+      <p id="word-par"></p>
 
-     <img id="pfp" src="img/Library.png" alt="">
-    <div class="layout">
-        
-  <nav id="nav">
+      <img id="pfp" src="img/Library.png" alt="" />
+      <div class="layout">
+        <nav id="nav">
+          <ul class="menu">
+            <li id="title">
+              <a href="index.html"
+                >Ali Jasem <br /><strong>Software Engineer</strong></a
+              >
+            </li>
 
+            <li><a data-panel="about">About Me</a></li>
+            <li><a data-panel="projects">My Projects</a></li>
+            <li><a data-panel="skills">My Skills</a></li>
+            <li><a data-panel="tech">Technologies Used</a></li>
+            <li><a data-panel="contact">Get to Know Ali</a></li>
+            <li>
+              <div class="cv-node">
+                <span class="label">CV.sys</span>
+                <a href="resume2026.pdf" download class="cv-btn">ACCESS</a>
+              </div>
+            </li>
+            <li>
+              <div class="close-node" id="closePanels">
+                <span class="sigil">✖</span>
+                <span class="label" data-alt="kill -9 panels">TERMINATE</span>
+              </div>
+            </li>
+          </ul>
+        </nav>
 
-    <ul class="menu">
-      <li id="title">
-        <a href="index.html">Ali Jasem <br><strong>Software Engineer</strong></a>
-      </li>
+        <!-- MATRIX BOXES -->
+        <section class="matrix">
+          <div class="panel" id="about">
+            <h2>About</h2>
+            <p>
+              Software Engineer focused on Unity systems, gameplay architecture,
+              tools, and cross-disciplinary development.
+            </p>
+          </div>
 
-      <li><a data-panel="about">About Me</a></li>
-      <li><a data-panel="projects">My Projects</a></li>
-      <li><a data-panel="skills">My Skills</a></li>
-      <li><a data-panel="tech">Technologies Used</a></li>
-      <li><a data-panel="contact">Get to Know Ali</a></li>
-           <li>  <div class="cv-node">  <span class="label">CV.sys</span> <a href="resume2026.pdf" download class="cv-btn">ACCESS</a></div></li>
-   <li><div class="close-node" id="closePanels">
-  <span class="sigil">✖</span>
-  <span class="label" data-alt="kill -9 panels">TERMINATE</span>
-</div></li>
-    </ul>
-  </nav>
+          <div class="panel" id="projects">
+            <h2>Projects</h2>
 
-  <!-- MATRIX BOXES -->
-<section class="matrix">
+            <div class="item">
+              <h3>Project Name</h3>
+              <p>Short description of the problem and solution.</p>
+              <span>Unity • C# • Systems</span>
+            </div>
 
-  <div class="panel" id="about">
-    <h2>About</h2>
-    <p>
-      Software Engineer focused on Unity systems, gameplay architecture,
-      tools, and cross-disciplinary development.
-    </p>
-  </div>
+            <div class="item">
+              <h3>Another Project</h3>
+              <p>What you built and why it matters.</p>
+              <span>Web • JS • Architecture</span>
+            </div>
+            <div class="item">
+              <h3>Another Project</h3>
+              <p>What you built and why it matters.</p>
+              <span>Web • JS • Architecture</span>
+            </div>
+            <div class="item">
+              <h3>Another Project</h3>
+              <p>What you built and why it matters.</p>
+              <span>Web • JS • Architecture</span>
+            </div>
+            <div class="item">
+              <h3>Another Project</h3>
+              <p>What you built and why it matters.</p>
+              <span>Web • JS • Architecture</span>
+            </div>
+                    <div class="item">
+              <h3>Another Project</h3>
+              <p>What you built and why it matters.</p>
+              <span>Web • JS • Architecture</span>
+            </div>
+                    <div class="item">
+              <h3>Another Project</h3>
+              <p>What you built and why it matters.</p>
+              <span>Web • JS • Architecture</span>
+            </div>
+          </div>
 
-  <div class="panel" id="projects">
-    <h2>Projects</h2>
+          <div class="panel" id="skills">
+            <h2>Skills</h2>
+            <ul class="grid">
+              <li>Game Architecture</li>
+              <li>Unity Tooling</li>
+              <li>OOP / SOLID</li>
+              <li>Refactoring</li>
+              <li>UI Systems</li>
+            </ul>
+          </div>
 
-    <div class="item">
-      <h3>Project Name</h3>
-      <p>Short description of the problem and solution.</p>
-      <span>Unity • C# • Systems</span>
+          <div class="panel" id="tech">
+            <h2>Technologies</h2>
+            <ul class="grid">
+              <li>Unity</li>
+              <li>C#</li>
+              <li>JavaScript</li>
+              <li>HTML / CSS</li>
+              <li>Git</li>
+            </ul>
+          </div>
+
+          <div class="panel" id="contact">
+            <h2>Contact</h2>
+            <p>Email: ali@email.com</p>
+            <p>GitHub: github.com/ali</p>
+            <p>LinkedIn: linkedin.com/in/ali</p>
+          </div>
+
+          <svg class="lines"></svg>
+        </section>
+      </div>
     </div>
-
-    <div class="item">
-      <h3>Another Project</h3>
-      <p>What you built and why it matters.</p>
-      <span>Web • JS • Architecture</span>
-    </div>
-    <div class="item">
-      <h3>Another Project</h3>
-      <p>What you built and why it matters.</p>
-      <span>Web • JS • Architecture</span>
-    </div>
-    <div class="item">
-      <h3>Another Project</h3>
-      <p>What you built and why it matters.</p>
-      <span>Web • JS • Architecture</span>
-    </div>
-    <div class="item">
-      <h3>Another Project</h3>
-      <p>What you built and why it matters.</p>
-      <span>Web • JS • Architecture</span>
-    </div>
-  </div>
-
-  <div class="panel" id="skills">
-    <h2>Skills</h2>
-    <ul class="grid">
-      <li>Game Architecture</li>
-      <li>Unity Tooling</li>
-      <li>OOP / SOLID</li>
-      <li>Refactoring</li>
-      <li>UI Systems</li>
-    </ul>
-  </div>
-
-  <div class="panel" id="tech">
-    <h2>Technologies</h2>
-    <ul class="grid">
-      <li>Unity</li>
-      <li>C#</li>
-      <li>JavaScript</li>
-      <li>HTML / CSS</li>
-      <li>Git</li>
-    </ul>
-  </div>
-
-  <div class="panel" id="contact">
-    <h2>Contact</h2>
-    <p>Email: ali@email.com</p>
-    <p>GitHub: github.com/ali</p>
-    <p>LinkedIn: linkedin.com/in/ali</p>
-  </div>
-
-  <svg class="lines"></svg>
-</section>
-
-</div>
-
-
-        </div>
-<footer>
-    <h6>Made by Ali 2026</h6>
-
-</footer>
-</body>
-<script src="script.js"></script>
+    <footer>
+      <p>Made by Ali 2026</p>
+    </footer>
+  </body>
+  <script src="script.js"></script>
 </html>
