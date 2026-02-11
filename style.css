@@ -187,11 +187,6 @@ margin-top: 20px;
   100% { transform: translate(0, 0); }
 }
 
-.my-sections{
-  background-color: var(--accent-color);
-  width: 100%;
-  padding: 100%;
-}
 
 
 
